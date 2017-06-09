@@ -1,0 +1,106 @@
+/*left-area style*/
+/*left-area background*/
+.left-area {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-image: url("/pics/BG_paper.png");
+    box-shadow: 1px 0 10px gray;
+
+}
+
+/*Profile*/
+.profile-pic {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    box-shadow: 0 3px 10px gray;
+    
+}
+.author-name {
+    color: dimgray;
+    text-align: center;
+    font-family: "charter","Times New Roman";
+    font-size: 2vw;
+    font-weight: 600;
+    text-shadow: 0 1px 1px gray;
+}
+
+/*nav-bar*/
+.nav-bar {
+    list-style-type: none;
+    color: dimgray;
+    font-family: "charter","Times New Roman";
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    padding: 5% 0;
+    text-decoration: none;
+    color: dimgray;
+    font-family: "charter","Times New Roman";
+    display: block;
+}
+li a:hover {
+    color: black;
+    text-shadow: 0 1px 1px gray;
+}
+li a:active {
+    color: black;
+    text-shadow: 0 0 gray;
+}
+.nav-line {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(128,128,128,0.0), rgba(128,128,128,0.8), rgba(128,128,128,1.0), rgba(128,128,128,0.8), rgba(128,128,128,0.0));
+    
+    position: relative;
+    left: 10%;
+}
+
+/*Content area*/
+.card-body {
+    width: 75%;
+    height: auto;
+    background-color: rgba(128,128,128,0.75);
+    position: relative;
+    left: 22.5%;
+    top: 2em;
+    z-index: -2;
+    margin-bottom: 2em;
+    
+    box-shadow: 1px 1px 10px gray;
+}
+.heading-background {
+    width: 100%;
+    height: 3.5em;
+    position: absolute;
+    display: block;
+    background-color: white;
+    z-index: -1;
+    box-shadow: 0 1px 5px dimgray;
+}
+.main-heading {
+    font-family: "charter", "Times New Roman";
+    color: gray;
+    font-size: 2em;
+    padding: 0.25em 0.5em;
+}
+
+.main-content-0 {
+    font-family: "Charter", "Times New Roman";
+    color: white;
+    font-size: 1.5em;
+    padding: 0 0 0.4em 0.75em;
+    margin: 0;
+}
+li.main-content-0 a {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
