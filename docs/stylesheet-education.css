@@ -1,0 +1,120 @@
+body {
+    background-color: #FCFAF2;
+}
+/*Top navi bar*/
+.top-navi-bar {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(11, 36, 110, 1) 60%, rgba(11, 36, 110, 0.8) 100%);
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+    z-index: 1;
+}
+.top-nav-bar-list {
+    margin: 0;
+    padding: 0;
+}
+.top-navi-bar-item {
+    list-style-type: none;
+    float: left;
+    padding: 0.75em 0;
+}
+.top-navi-bar-item a {
+    text-decoration: none;
+    font-family: "Helvetica Neue", "Arial";
+    color: white;
+    font-size: 1.25em;
+    padding: 0.75em 1em;
+}
+.top-navi-bar-item a:hover {
+    background-color: #FCFAF2;
+    color: #0B246E;
+    transition-duration: 0.4s;
+}
+.top-navi-bar-item a:active {
+    background-color: rgba(252, 250, 242, 0.9);
+}
+/*Main body*/
+.main-body {
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+}
+
+.main-title {
+    display: block;
+    font-family: "Helvetica", "Arial";
+    font-size: 2em;
+    color: #1C1C1C;
+    padding: 0;
+    margin: 0;
+}
+
+.ec-single-item {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 1em 0;
+    box-shadow: 0 0.25em 0.5em gray;
+    
+    font-family: "Helvetica", "Arial";
+    
+    display: block;
+}
+
+.ec-single-item-head {
+    width: 98%;
+    height: auto;
+    background: linear-gradient(to right, rgba(11, 36, 110, 1) 50%, rgba(11, 36, 110, 0.8) 100%);
+    color: #FCFAF2;
+    padding: 0.05em 0 0.05em 1em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.exp-col-btn {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    font-family: "Helvetica", "Arial";
+    font-size: 1em;
+    color: #FCFAF2;
+    
+    padding: 0 1em 0 0;
+}
+
+.ec-single-item-body {
+    width: 98%;
+    height: auto;
+    padding: 0 0 0.05em 1em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    flex-basis: 60%;
+    
+    visibility: visible;
+}
+
+.item-body-pic {
+    margin-left: auto;
+}
+#mq-logo {
+    width: 10em;
+}
+
+#lnu-logo {
+    width: 6em;
+    padding: 1em;
+    margin: 0 1em 0 0;
+}
